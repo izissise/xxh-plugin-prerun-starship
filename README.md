@@ -1,23 +1,16 @@
 <p align="center">
-Using <a href="https://github.com/ajeetdsouza/zoxide">zoxide</a> in xxh. Zoxide is a faster way to navigate your filesystem.
-</p>
-
-<p align="center">  
-If you like the idea click ⭐ on the repo and <a href="https://twitter.com/intent/tweet?text=Nice%20plugin%20for%20the%20xxh%20project!&url=https://github.com/xxh/xxh-plugin-prerun-zoxide" target="_blank">tweet</a>.
+Using <a href="https://github.com/ajeetdsouza/starship">starship</a> in xxh. Starship is a prompt written in rust.
 </p>
 
 ## Install
 ```shell
-xxh +I xxh-plugin-prerun-zoxide
+xxh +I xxh-plugin-prerun-starship
 ```
 
 ## Usage
 ```shell
 xxh host
-cd /etc
-cd /tmp
-z e
-# /etc
+starship-prompt-here $
 ```
 
 ## Supported xxh-shells
