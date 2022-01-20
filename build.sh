@@ -46,9 +46,8 @@ build() {
 
   echo "Downloading starship..."
   curl -sL "$url" -o "${build_dir}/${filename}"
+  tar -xf "${build_dir}/${filename}" starship
   rm "${build_dir}/${filename}"
-
-  tar -xf "${build_dir}/${filename}" ${build_dir}/starship
   chmod +x starship
 
 }
