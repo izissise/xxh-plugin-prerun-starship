@@ -4,7 +4,7 @@ Using <a href="https://github.com/ajeetdsouza/starship">starship</a> in xxh. Sta
 
 ## Install
 ```shell
-xxh +I xxh-plugin-prerun-starship
+xxh +I xxh-plugin-prerun-starship+git+https://github.com/izissise/xxh-plugin-prerun-starship.git
 ```
 
 ## Usage
